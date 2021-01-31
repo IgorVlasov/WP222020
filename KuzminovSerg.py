@@ -1,5 +1,5 @@
-a = 0;
-b = 0;
+a = 0; # зачем?
+b = 0; # зачем?
 print("a")
 a = int(input())
 print("b")
