@@ -1,1 +1,1 @@
-sadfasdf
+print()
