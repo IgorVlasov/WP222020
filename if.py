@@ -2,7 +2,10 @@ x =  int( input() )
 
 
 if x % 2 == 0:
-  print("Ввели четное число")
+  if x == 6:
+    print("Ввели 6")
+  else:
+    print("Ввели четное число")
 elif x == 0:
   print("ввели 0")
 elif 5 < x < 10:
