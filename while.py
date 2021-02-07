@@ -1,5 +1,5 @@
 x = 1
-while true:
+while x > 0:
   x = x * 11
   for i in range(x*10):
     print(x ," ")
