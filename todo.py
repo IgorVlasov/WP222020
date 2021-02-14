@@ -14,19 +14,19 @@ todo = {}
 
 while exit == False:
   
-userAnswer = input()
+  userAnswer = input()
 
-if userAnswer == "exit":
-  exit = True
-  continue
-elif userAnswer == "add":
-  print("событие добавлено")
-elif userAnswer == "remove":
-  print("Событие добавлено")
-elif userAnswer == "showall":
-  print("Событие добавлено")
-elif userAnswer == "help":
-print(HELP)
-else:
-  print("Нeизвестная команда")
-  print("Для вывода списка команд введите help")
+  if userAnswer == "exit":
+    exit = True
+    continue
+  elif userAnswer == "add":
+    print("событие добавлено")
+  elif userAnswer == "remove":
+    print("Событие добавлено")
+  elif userAnswer == "showall":
+    print("Событие добавлено")
+  elif userAnswer == "help":
+    print(HELP)
+  else:
+    print("Нeизвестная команда")
+    print("Для вывода списка команд введите help")
