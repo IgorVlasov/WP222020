@@ -20,6 +20,21 @@ while exit == False:
     exit = True
     continue
   elif userAnswer == "add":
+    print("ВВедите дату события")
+    addKey = input()
+    print("Что нужно сделать?")
+    addValue = input()
+
+    if addKey in todo.keys():
+      tmp = [todo[addKey]]
+      tmp.append(addValue)
+      todo[addKey] = tmp
+    else:
+      todo[addKey] = addValue
+
+   
+
+
     print("событие добавлено")
   elif userAnswer == "remove":
     print("Событие добавлено")
