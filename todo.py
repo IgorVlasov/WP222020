@@ -7,7 +7,7 @@ exit    - закрыть программу
 """
 exit = False
 userUnswer = 0
-
+ 
 todo = {}
 print("Введите команду")
 print("Для вывода списка команд введите help")
